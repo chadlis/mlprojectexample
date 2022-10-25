@@ -164,7 +164,7 @@ def main():
     plt.plot(y_train, y_train, color='blue', linewidth=3)
     plt.xlabel("Real value")
     plt.ylabel("Predicted value")
-    plt.savefig(Path(args.score_report) / "regression_results.png")
+    plt.savefig(Path(args.score_report) /  "regression_results.png")
     
     # Save the model
     pickle.dump(model, open((Path(args.model_output) / "model.pkl"), "wb"))

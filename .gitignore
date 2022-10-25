@@ -1,0 +1,5 @@
+*.ipynb_checkpoints
+data/1_prepared/*
+data/2_model/*
+data/3_reports/*
+data/4_predictions/*
