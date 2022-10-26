@@ -63,26 +63,7 @@ The folder presents a proposition of structure for data.
     `python src/evaluate.py --prepared_data "data/1_prepared" --model_input "data/2_model" --score_report "data/3_reports" --predictions "data/4_predictions"`
     
     
-    
---------
 
-
-1. #### Compute instance
-    In AML, in order to code, whether using Notebooks or VSCode, each user should have its own compute instance. This instance should be created by the user himself or by an adminstrator. The compute instances appear under "Compute".
-
-    The user is responsible of launching and stopping the instance.
-
-    The instance can be accessed using Notebooks, VSCode or a Terminal.
-
-    When a compute instance is accessed, it points automatically to a shared storage.
-
-    Under this path, anything saved will be accessed by any other user in the same AML instance, through Notebooks or another instance.
-    The instances storage can be accessed using the terminal with absolute paths.
-    
-2. #### Work modes
-    
-    3 work modes are available: Azure Notebooks, Conda Notebooks and VSCode
-    
     All this environment need a compute to be used. The compute should be attached to the user.
     
     
