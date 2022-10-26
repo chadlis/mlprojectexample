@@ -86,16 +86,3 @@ The folder presents a proposition of structure for data.
     All this environment need a compute to be used. The compute should be attached to the user.
     
     
-------
-
-### Guide 
-
-1. Go to "Compute" and create a compute instance and launch it
-
-2. Access to the created instance Jupyter Lab.
-
-3. Open a terminal and clone this repository:
-
-    `https://github.com/chadlis/mlprojectexample`
-
-4. Follow the code structured given in the example to create your project (cf. README.md)
